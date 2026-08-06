@@ -1,5 +1,5 @@
 package-lock.json
-newsletters.json
 node_modules/
+state.json
 *.log
 .env
