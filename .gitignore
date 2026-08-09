@@ -1,5 +1,14 @@
 package-lock.json
 node_modules/
+config.json
 state.json
 *.log
 .env
+
+# test stuff
+screenshot.js
+progress.png
+tweets.json
+twitter.js
+posts.json
+bsky.js

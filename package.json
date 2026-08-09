@@ -1,13 +1,23 @@
 {
-  "name": "newslettersniffer",
-  "version": "1.1.0",
+  "name": "deltastalker",
+  "version": "2.0.0",
+  "license": "AGPL-3.0-only",
+  "author": {
+    "name": "luluontheweb",
+    "url": "https://github.com/luluontheweb"
+  },
+  "funding": "https://ko-fi.com/luluontheweb",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node --env-file=.env ."
   },
   "dependencies": {
+    "@atproto/api": "^0.20.38",
     "axios": "^1.19.0",
-    "cheerio": "^1.2.0"
+    "cheerio": "^1.2.0",
+    "discord.js": "^14.27.0",
+    "emusks": "^2.3.7",
+    "puppeteer": "^25.5.0"
   }
 }
